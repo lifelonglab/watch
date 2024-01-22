@@ -6,7 +6,7 @@ install.packages("https://cran.r-project.org/src/contrib/Archive/mvtnorm/mvtnorm
 # install GSAR
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
-BiocManager::install(version = "3.17"
+BiocManager::install(version = "3.17")
 BiocManager::install("GSAR")
 
 # install WassersteinGoF
